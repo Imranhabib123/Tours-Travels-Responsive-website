@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anam Tours & Travels | Cab Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar     -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Anam Tours & Travels</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fleet">Fleet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero d-flex align-items-center text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Reliable Tourist Cab Services</h1>
+            <p class="lead">Sedan to SUV - Safe, Comfortable Rides</p>
+            <a href="#booking" class="btn btn-warning btn-lg me-2">Book Now</a>
+            <a href="#fleet" class="btn btn-outline-light btn-lg">View Fleet</a>
+        </div>
+    </section>
+
+    <!-- CAB FLEET -->
+    <section id="fleet" class="container my-5">
+        <h2 class="text-center mb-4">Our Cab Fleet</h2>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm cab-card h-100">
+                    <img src="Images/xcent.avif" class="card-img-top" alt="Sedan">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sedan</h5>
+                        <p class="card-text">Perfect for city travel & airport pickup.</p>
+                        <button class="btn btn-primary w-100">Book Sedan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm cab-card h-100">
+                    <img src="Images/Ertiga.avif" class="card-img-top" alt="SUV">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SUV</h5>
+                        <p class="card-text">Best for family trips & outstation tours.</p>
+                        <button class="btn btn-primary w-100">Book SUV</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm cab-card h-100">
+                    <img src="Images/MG_Hector.jpg" class="card-img-top" alt="Luxury">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Luxury</h5>
+                        <p class="card-text">Premium comfort for special occasions.</p>
+                        <button class="btn btn-primary w-100">Book Luxury</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Why Choose Us</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5><i class="bi bi-check2 text-dark me-2"></i>Professional Drivers</h5>
+                    <p>Experienced & verified drivers.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5><i class="bi bi-check2 text-dark me-2"></i>Affordable Rates</h5>
+                    <p>No Hidden Charges</p>
+                </div>
+                <div class="col-md-4">
+                    <h5><i class="bi bi-check2 text-dark me-2">24/7 Services</i></h5>
+                    <p>Always available for your trip.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="container my-5">
+        <h2 class="text-center mb-4">Book Your Cab</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Pickup Location</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Drop Location</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Car Type</label>
+                        <select class="form-select">
+                            <option>Sedan</option>
+                            <option>Suv</option>
+                            <option>Luxury</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-warning w-100">Confirm Booking</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-4">Contact Us</h2>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h5>Get In Touch</h5>
+
+                    <p><i class="bi bi-telephone"></i> +91 9321275307</p>
+
+                    <p><i class="bi bi-envelope"></i> anamtravels@gmail.com</p>
+
+                    <p><i class="bi bi-geo-alt"></i> Mumbai, Maharashtra</p>
+
+                    <a href="https://wa.me/919321275307" class="btn btn-success">
+                        <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <form>
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button class="btn btn-dark w-100">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white text-center p-3">
+        &copy; <span id="year"></span> Anam Tours & Travels. All Rights Reserved.
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

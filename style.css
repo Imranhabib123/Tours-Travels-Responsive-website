@@ -1,0 +1,17 @@
+.hero {
+    height: 90vh;
+    background: url(Images/hero1.jpeg) center/cover no-repeat;
+}
+
+.cab-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.cab-card {
+    transition: 0.3s ease;
+}
+
+.cab-card:hover {
+    transform: translateY(-8px);
+}
